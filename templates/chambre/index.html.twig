@@ -1,0 +1,73 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ChambreController!{% endblock %}
+
+{% block body %}
+
+<h1 class="text-center">CHAMBRES</1>
+
+ <div class="test">
+ <div>
+    <img src="{{ asset('img/chambre1.jpeg') }}" class="spa" width="1300px" height="580px">
+</div>
+
+ <div class="introchambre">
+    <article>
+        <p class="text-center">CHAMBRES LUXUEUX</p>Vous apprécierez l’ambiance raffinée, feutrée et chaleureuse qui règne dans les chambres Classiques,<br> Supérieures, Deluxes ou  Junior Suites.
+        Les chambres sont climatisées et disposent de salle de bain privée<br> ainsi que des installations de qualité. Chacune est équipée d’une Smart TV HD 43″ écran plat,<br> un accès wifi offert, un plateau de courtoisie, un mini bar, un coffre-fort et bien plus encore.<br>
+        L’hôtel dispose de chambres PMR pour nos clients en situation de handicap ainsi qu’un accès par ascenseur.</p>
+    </article>
+</div><!-- FIN CHAMBRE -->
+
+
+<div class="chambre1">
+    <div class="gauche">
+        <img src="{{ asset('img/chambre3.jpeg') }}" class="imgchambre1" width="500px" height="300px">
+    </div>
+    <div class="droite">
+        <p><i class="fas fa-quote-left"></i>Dans ce lieu magique, dédié au bien-être,<br> à la beauté et aux plaisirs des sens
+            on se<br> laisse bercer entre les mains d'expertes.<i class="fas fa-quote-right"></i></p>
+    </div>
+</div><!-- FIN CHAMBRE1 -->
+
+<div class="chambre2">
+    <div class="gauche">
+    
+        <img src="{{ asset('img/chambre2-1024x576.jpeg') }}" class="imgchambre1" width="500px" height="300px">
+    </div>
+    <div class="droite">
+        <p><i class="fas fa-quote-left"></i>Dans ce lieu magique, dédié au bien-être,<br> à la beauté et aux plaisirs des sens
+            on se<br> laisse bercer entre les mains d'expertes.<i class="fas fa-quote-right"></i></p>
+    </div>
+</div><!-- FIN CHAMBRE1 -->
+
+
+
+
+<footer class="row row-cols-5 py-5 my-5">
+    <div class="adresse">
+        <ul class="nav flex-column">
+            <li>1 avenue de Montaigne</li>
+            <li>75008 Paris</li>
+            <li>+33 1 53 57 49 50</li>
+    </div>
+      <div class="faq">
+        <ul class="nav flex-column">
+            <li>Mention Légales</li>
+            <li>Utilisation des cookies</li>
+            <li>FAQ</li>
+    </div>
+    <div class="faq3">
+        <ul class="reseaux">
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-twitter-square"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-instagram-square"></i></li>
+    </div>
+</footer>
+
+
+
+        
+
+{% endblock %}

@@ -1,0 +1,256 @@
+h1 {color: rgb(233, 145, 30);}
+
+
+/*** PHOTO ARRONDI ***/
+.rounded{
+    width:150px;
+    height:150px;
+    border-radius: 50%  ;
+  }
+  
+  .photo_round{
+    display: flex;
+    justify-content:space-around;
+    font-size: 0.625em;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  img{width:100%;
+    height:auto;
+  }
+  
+  .intro{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .caps{
+    font-size: 3em;
+  }
+  
+  
+  
+  a{
+    color: black;
+    
+  }
+  
+  /*** PAGE ACCUEIL***/
+  
+  .fond1{
+    background-color: aqua;
+  }
+  
+  
+  h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5em;
+  }
+  
+  
+  
+  img{position: relative;}
+
+  .button{position: absolute;
+    top:350px;
+    margin-left: 560px;
+    margin-top: 50px;
+  }
+  
+  
+  
+  /*** PAGE SPA ***/
+  
+  .droite, .gauche1{
+    border: 1px solid black;
+    text-align:center;
+    
+    line-height: 2.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 50px;
+    font-size: 1.125em;
+    font-family: 'josefin Sans', sans-serif;
+    
+    
+  }
+  span{
+    font-size: 40px;
+    font-family: 'josefin Sans', sans-serif;
+  }
+  
+  
+  
+  .spa1{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 50px;
+    }
+
+  .gauche{
+    margin: 20px;
+  }
+  
+  .spa2{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+  }
+
+  
+  
+  .flex4{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+    font-family: 'josefin Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  iframe{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+  .logo{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  
+  /*** PAGE RESTAURANT ***/
+  
+  .table{
+    width: 500;
+    height: 300px;
+  }
+  .table2{
+    width: 600;
+    height: 400px;
+  }
+
+  .table3{
+    width: 300;
+    height: 300px;
+  }
+
+  .ptitdej{
+    width: 500px;
+    height: 300px;
+  }
+  
+  .resto1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  
+  .resto2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: antiquewhite;
+  }
+  
+  .resto3{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  
+  .resto4{
+    font-family: 'josefin Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  
+  
+  
+  .espace{
+    margin-left: 15px;
+    padding-bottom: 15px;
+  }
+  
+  /*** PAGE RESA ***/
+  
+  .input-group{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+   /*** PAGE CHAMBRE***/
+
+
+
+  .introchambre {
+    font-family: 'josefin Sans', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+  }
+
+  .chambre1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 5px;
+    background-color: antiquewhite;
+    font-size: 20px;
+    color: black;
+  }
+
+  .chambre2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 5px;
+    font-size: 20px;
+    color: black;
+  }
+
+  
+
+  
+  
+  /*** FOOTER ***/
+  
+  footer{
+    justify-content: center;
+    background-color: antiquewhite;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size:10px;
+    color: black;
+  }
+  
+  .reseaux{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5em;
+  
+  }
+  
+  li{
+    list-style-type: none;
+  }
+  

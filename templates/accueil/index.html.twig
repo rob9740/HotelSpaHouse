@@ -1,0 +1,61 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AccueilController!{% endblock %}
+
+{% block body %}
+
+<h1>ACCUEIL</h1>
+
+
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="{{ asset('img/demeuremontaigneslide2_reduc.jpg') }}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ asset('img/demeuremontaigneslide3_reduc.jpg') }}" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ asset('img/demeuremontaigneslide4_reduc.jpg') }}" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+ 
+
+
+
+
+    <div class="photo_round">
+    <div class="chambre">
+        <img src="{{ asset('img/montaigne_chambre.jpeg') }}" class="intro">
+        <p class="caps">Chambre</p>
+        <p>Venez découvrir nos chambres<br>pour votre<br>plus grand confort !</p>
+        <a href="{{ path('app_chambre') }}" button class="btn btn-primary">chambres</a>
+    </div>{# FIN CHAMBRE #}
+    <div class="resto">
+        <img src="{{ asset('img/demeureresto5.jpeg') }}" class="intro">
+        <p class="caps">Restaurant</p>
+        <p>Nos plats sont confectionnés<br>à la minute par<br>notre chef cuisinier chaque jour.</p>
+        <a href="{{ path('app_resto') }}" button class="btn btn-primary">Restaurant</a>
+    </div>{# FIN CHAMBRE #}
+    <div class="spa">
+        <img src="{{ asset('img/demeuremontaignedouche.jpeg') }}" class="intro">
+        <p class="caps">Spa</p>
+        <p>Détentez-vous et offrez<br>vous un massage<br>dont vous vous rappellerez longtemps.</p>
+        <a href="{{ path('app_spa') }}" button class="btn btn-primary">Spa</a>
+    </div>{# FIN CHAMBRE #}
+
+    
+</div>{# FIN CONTAINER #}
+{% endblock %}

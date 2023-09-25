@@ -1,0 +1,85 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello SpaController!{% endblock %}
+
+{% block body %}
+
+ <div class="test">
+    <img src="{{ asset('img/demeuremontaigne1.jpeg') }}" class="spa" width="1300px" height="580px">
+    </div>
+
+    <div class="flex3">
+    <article>
+        <h1 class="display-5 text-center">LE SPA</h1>
+        <p class="text-center">SPA LUXUEUX ET PISCINE EN PIERRE DE VALS</p>
+        <p class="text-center">Véritable cocon de bien-être, accordez-vous un moment hors du temps, parfait antidote après une journée de balades dans Paris.<br> Imaginez comme un cocon protecteur et énergisant, profitez de notre spa, d’un bain relaxant dans le jacuzzi ou d’un instant de détente intense au hammam.</p>
+    </article>
+</div>
+
+
+
+
+
+<div class="spa1">
+    <div class="gauche">
+        <img src="{{ asset('img/demeuremontaigne4.jpeg') }}" width="400px" height="200px">
+    </div>
+    <div class="droite">
+        <p><i class="fas fa-quote-left"></i>Dans ce lieu magique, dédié au bien-être,<br> à la beauté et aux plaisirs des sens
+            on se<br> laisse bercer entre les mains d'expertes.<i class="fas fa-quote-right"></i></p>
+    </div>
+</div>
+
+<div class="spa2">
+    <div class="droite"> 
+        <p><i class="fas fa-quote-left"></i>Un large choix de soins spa et détente,<br> de massages et de rituels de beauté<br> aux techniques de soin les plus innovantes <br>vous sera proposé pour satisfaire chacune<br> de vos envies.<i class="fas fa-quote-right"></i></p>
+    </div>
+    <div class="gauche">
+    <img src="{{ asset('img/demeuremontaigne3.jpeg') }}" width="400px" height="200px">
+       
+    </div>
+</div>
+
+
+
+<div class="flex4">
+    <div class="logo">
+        <i class="fas fa-calendar-alt"></i>
+        <p class="calendar">du lundi au dimanche</p>
+    </div>
+        
+    <div class="logo">
+        <i class="far fa-clock"></i>
+        <p class="clock">de 7h à 22h</p>
+    </div>
+</div>{# fin flex 4 #}
+
+<div class="flex5">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6401911606995!2d2.3020784!3d48.865071199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fdd0dd39a4d%3A0x508194b82b12f012!2s1%20Av.%20Montaigne%2C%2075008%20Paris!5e0!3m2!1sfr!2sfr!4v1666271225611!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+
+
+
+<footer class="row row-cols-5 py-5 my-5">
+    <div class="adresse">
+        <ul class="nav flex-column">
+            <li>1 avenue de Montaigne</li>
+            <li>75008 Paris</li>
+            <li>+33 1 53 57 49 50</li>
+    </div>
+      <div class="faq">
+        <ul class="nav flex-column">
+            <li>Mention Légales</li>
+            <li>Utilisation des cookies</li>
+            <li>FAQ</li>
+    </div>
+    <div class="faq3">
+        <ul class="reseaux">
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-twitter-square"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-instagram-square"></i></li>
+    </div>
+</footer>
+{% endblock %}

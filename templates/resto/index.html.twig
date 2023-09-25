@@ -1,0 +1,94 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello RestoController!{% endblock %}
+
+{% block body %}
+
+<header>
+    <img src="{{ asset('img/demeureresto2_reduc.jpg') }}" width="1200px" height="550px">
+    <div class="button">
+    <button class="btn btn-primary">Reservation</a>
+</div>
+</header>
+
+<div class="resto4">
+    <article>
+        <h1 class="display-5 text-center">LE RESTAURANT</h1>
+        <p class="text-center">Le restaurant transforme une ancienne cour intérieure en un lumineux jardin d'hiver.<br> 
+        Sous la grande verrière, le jour met en vibration les pierres qui habillent les murs et les tables.<br> 
+        Une cheminée réchauffe l'atmosphère en hiver.<br> 
+        Quant aux mobilier, il brouille la frontière entre intérieur et extérieur, notamment par le choix de canapés et fauteuils cannés.</p>
+        {#<button type="submit" class="btn btn-primary">RESERVATION</button>#}
+    </article>
+</div>{# fin resto 4 #}
+
+
+
+<div class="resto1">
+    <div class="gauche">
+        <img src="{{ asset('img/demeureresto2.jpeg') }}" class="table">
+    </div>
+    <div class="droite">
+        <p>RESTAURANT<br><i class="fas fa-quote-left"></i>Poussez les portes de ce lieu discret à l’écart<br> 
+        de l’effervescence des Champs-Elysées<br> 
+        et de l’avenue Montaigne et<br>
+        plongez dans une ambiance feutrée et cosy.<i class="fas fa-quote-right"></i></p>
+        {#<button type="submit" class="btn btn-primary">carte</button>#}
+    </div>
+</div>{# fin resto 1 #}
+
+<div class="resto2">
+    <div class="gauche1">
+        <p><i class="fas fa-quote-left"></i>Notre chef Grégory Réjou délivre une cuisine<br> 
+        qui allie classicisme et audace créative élaborée<br> 
+        à partir de produits rigoureusement sélectionnés.<br> 
+        Du côté des assiettes, la carte est courte mais pointue.<br> 
+        L'accent porte sur la saison d'après les ressources des terroirs et<br> 
+        offre un choix des meilleurs fondamentaux. Tous nos produits<br> 
+        sont frais et sourcés en France. Gage de transparence,<br> 
+        la cuisine ouverte montre la transformation<br> 
+        des produits frais et la belle harmonie de la brigade.<i class="fas fa-quote-right"></i></p>
+        <img src="{{ asset('img/chefrejou2.jpg') }}" class="table3" width="250px" height="250px"><br>
+        <button type="submit" class="btn btn-primary">carte</button>
+    </div>
+    <div class="droite1">
+        <img src="{{ asset('img/demeureresto1.jpeg') }}" class="table2" width="500px" height="300px">
+    </div>
+</div>{# fin resto 2 #}
+
+<div class="resto3">
+    <div class="droite1">
+        <img src="{{ asset('img/demeureresto3.jpeg') }}" class="ptitdej" width="500px" height="300px">
+    </div>
+    <div class="gauche1">
+        <p><i class="fas fa-quote-left"></i>LE PETIT-DÉJEUNER <br>Impossible de manquer le petit-déjeuner buffet<br> servi jusqu'à 12h ! .<i class="fas fa-quote-right"></i></p>
+        <button type="submit" class="btn btn-primary">carte</button>
+    </div>
+</div>{# fin resto 3 #}
+
+
+
+<footer class="row row-cols-5 py-5 my-5">
+    <div class="adresse">
+        <ul class="nav flex-column">
+            <li>1 avenue de Montaigne</li>
+            <li>75008 Paris</li>
+            <li>home</li>
+            <li>home</li>
+    </div>
+      <div class="faq">
+        <ul class="nav flex-column">
+            <li>Mention Légales</li>
+            <li>Utilisation des cookies</li>
+            <li>home</li>
+            <li>home</li>
+    </div>
+    <div class="faq3">
+        <ul class="reseaux">
+            <li><i class="fab fa-facebook"></i></li>
+            <li><i class="fab fa-twitter-square"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-instagram-square"></i></li>
+    </div>
+</footer>
+{% endblock %}

@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}admin chambres{% endblock %}
+
+{% block body %}
+
+<h1 class="text-center">ADMIN - CHAMBRES</h1>
+<div class="col-10 m-5">
+    <table class="table table-bordered table-hover table-sm text-center">
+        <thead>
+            <tr>
+                <th scope="col">N°</th>
+                <th scope="col">Titre</th>
+                <th scope="col">Description</th>
+                <th scope="col">Photo</th>
+                <th scope="col">Prix_Journalier</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for chambre in chambres %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ chambre.titre }}</td>
+                    <td>{{ chambre.description }}</td>
+                    <td>{{ chambre.photo }}</td>
+                    <td>{{ chambre.prixJournalier }}</td>
+                    <td>
+                        <a href="{{ path('app_update', {'id':chambre.id}) }}">modifier</a> | <a href="{{ path('app_delete', {'id':chambre.id}) }}">supprimer</a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+    <a href="{{ path('app_create') }}" class="btn btn-primary m-3">Ajouter</a>
+
+
+{% endblock %}
